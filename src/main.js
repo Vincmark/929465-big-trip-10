@@ -14,7 +14,6 @@ const render = (container, template, place) => {
   container.insertAdjacentHTML(place, template);
 };
 
-
 const tripInfoElement = document.querySelector(`.trip-main__trip-info`);
 render(tripInfoElement, getTripTemplate(), `afterbegin`);
 
